@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Raviteja's Niloufer Cafe</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff9f1;
+    color: #3a2a1a;
+  }
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #c97f4e;
+    padding: 13px 0;
+    box-shadow: 0 4px 10px rgb(201 127 78 / 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar a {
+    color: #fef3e6;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  .navbar a:hover {
+    background-color: #f6e7d6;
+    color: #c97f4e;
+    box-shadow: inset 0 -4px 0 0 #c97f4e;
+  }
+  .navbar a.active {
+    background-color: #a25e2a;
+    box-shadow: inset 0 -4px 0 0 #783f13;
+  }
+  /* Page Sections */
+  section {
+    max-width: 960px;
+    margin: 60px auto;
+    padding: 0 25px;
+  }
+  h2 {
+    color: #a25e2a;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.3rem;
+    border-bottom: 3px solid #c97f4e;
+    padding-bottom: 8px;
+  }
+  p {
+    font-size: 1.12rem;
+    line-height: 1.6;
+    color: #4a3a2a;
+    max-width: 850px;
+  }
+  /* Customer Reviews */
+  .reviews {
+    background-color: #f6e7d6;
+    padding: 40px 20px;
+    border-radius: 14px;
+    max-width: 940px;
+    margin: 50px auto 80px;
+    box-shadow: 2px 2px 10px #d8bea9a8;
+  }
+  .review {
+    margin-bottom: 26px;
+  }
+  .review strong {
+    color: #a25e2a;
+  }
+  /* Responsive */
+  @media (max-width: 700px) {
+    .navbar {
+      flex-wrap: wrap;
+      padding: 15px 0;
+    }
+    .navbar a {
+      margin: 8px 10px;
+      padding: 10px 14px;
+      font-size: 1rem;
+    }
+    section {
+      margin: 40px auto;
+      padding: 0 18px;
+    }
+    .reviews {
+      margin: 40px 12px 70px;
+      padding: 28px 15px;
+    }
+  }
+</style>
+</head>
+<body>
+  <nav class="navbar">
+    <h1>Raviteja's Niloufer Cafe</h1>
+    <a href="#home" class="active">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <center><img 
+  src="https://cdn.shopify.com/s/files/1/0529/2579/2407/files/logo.png?height=628&pad_color=f9b231&v=1615324496&width=1200" 
+  alt="Signature Niloufer Tea" 
+  style="width:100%; max-width:600px; border-radius:12px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);"/>
+  </center>
+
+  <section id="home">
+    <h2>Welcome to Ravitejas Niloufer Cafe</h2>
+    <p>Experience authentic flavors and warm hospitality in every cup of our signature Niloufer Tea. Our cafe invites you to relax, refresh, and enjoy delicious snacks inspired by traditional recipes with a contemporary twist.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <p>From the classic Osmania Biscuits to freshly baked cookies, pastries, and a wide variety of teas, we have crafted a menu that delights every palate. Whether you crave savory puffs or sweet treats, every bite tells a story of quality and tradition.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Established as a beloved neighborhood spot, Ravitejas Niloufer Cafe blends heritage with comfort. Our passion is to serve the perfect tea and snacks that feel like home, accompanied by friendly service in a relaxing ambiance.</p>
+  </section>
+
+  <section id="events">
+    <h2>Events & Specials</h2>
+    <p>Join us every weekend for special tasting sessions, live acoustic music, and tea brewing workshops. Celebrate the season with our curated menu specials and community gatherings designed to bring tea lovers together.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out for reservations, orders, or any inquiries. Visit us at 456 Coffee Street, Hyderabad, call us at (040) 1234-5678, or send an email to info@ravitejasniloufer.com. We look forward to welcoming you!</p>
+  </section>
+
+  <section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review"><strong>Madhav Kolli:</strong> I cherish every sip of this tea whenever I come here. It’s my favorite spot to boost my mood and shrug off the day’s stress.</div>
+    <div class="review"><strong>Anand:</strong> The Niloufer Special Tea is a must-try. The ambiance and service are great, making this place a must-visit in Banjara Hills.</div>
+    <div class="review"><strong>Fairina Siddiqui:</strong> Best lemon tea in town! Everything is vegetarian and hygienic. Perfect stop after a long day.</div>
+    <div class="review"><strong>Ali Mustafa Khan:</strong> Loved the tea! Staff and customers follow all safety norms with masks and shields.</div>
+    <div class="review"><strong>Rakesh Baroorkar:</strong> The head chef explained everything about the food. It was great and fresh. You won’t regret eating here.</div>
+  </section>
+
+  <footer style="background-color:#c97f4e; color:#fff9f1; text-align:center; padding: 25px 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div style="max-width:960px; margin:auto;">
+      <p style="margin: 0 0 10px; font-weight: 600; font-size: 1.1rem;">© 2025 Ravitejas Niloufer Cafe</p>
+      <p style="margin: 0; font-size: 0.95rem;">123 Coffee Lane, Hyderabad &nbsp;|&nbsp; Phone: (040) 1234-5678 &nbsp;|&nbsp; Email: info@ravitejasniloufer.com</p>
+      <p style="margin-top: 12px; font-size: 0.9rem; color: #f7e0c6;">Serving you the best tea and treats with love and tradition.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
